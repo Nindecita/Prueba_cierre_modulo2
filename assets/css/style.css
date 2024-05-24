@@ -103,6 +103,10 @@ li img {
   list-style-type: none;
 }
 
+.info {
+  height: 80vh;
+  width: 60vh;
+}
 /* productos container */
 .product-grid {
   display: grid;
@@ -166,6 +170,10 @@ li img {
   padding-bottom: 1rem;
 }
 
+.copyrigth {
+  display: flex;
+  justify-content: left;
+}
 /* mobile*/
 @media (max-width: 768px) {
   body {
