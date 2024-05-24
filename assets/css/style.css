@@ -74,7 +74,7 @@ nav img {
   justify-content: center;
   padding-top: 1rem;
   height: 20vh;
-  animation: rotar linear infinite;
+  animation: rotar 5s linear infinite;
 }
 
 .nav-logo:hover {
@@ -83,10 +83,10 @@ nav img {
 
 @keyframes rotar {
   from {
-    transform: rotatey(0deg);
+    transform: rotatey(180deg);
   }
   to {
-    transform: rotateY(360deg);
+    transform: rotateY(-180deg);
   }
 }
 
