@@ -74,6 +74,20 @@ nav img {
   justify-content: center;
   padding-top: 1rem;
   height: 20vh;
+  animation: rotar linear infinite;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
 .nav-toggle {
@@ -109,10 +123,14 @@ li img {
   border: solid 3px #6d6868;
   border-radius: 20px;
   background-color: #a8bd06;
-  animation-name: my-animation;
+  filter: drop-shadow(0px 7px 7px #507705);
 }
 
-
+.item:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  z-index: 1;
+}
 
 .item img {
   width: 25vh;
