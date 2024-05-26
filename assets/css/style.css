@@ -208,6 +208,10 @@ li img {
   .nav-logo img{
     width: 20%;
   }
+  .info {
+    height: auto;
+    width: 70%;
+  }
 }
 
 /* tablet */
