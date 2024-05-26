@@ -31,6 +31,10 @@ body {
   background: #ced630;
 }
 
+a {
+  cursor: url("../img/cursor.png"), auto;
+}
+
 h1 {
   color: #ced630;
 }
